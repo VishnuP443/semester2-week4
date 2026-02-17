@@ -16,5 +16,13 @@
     Store your answer in vector c
     Print your final answer
     */
+   for (int k; k<4; k++){
+      for (int j; j<4; j++){
+         a[k][j] = 1;
+      }
+   }
+   
+
+
     return 0;
  }

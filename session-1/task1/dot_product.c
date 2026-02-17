@@ -9,11 +9,18 @@
     float a[]={ 1.0,1.0,1.0,1.0,1.0 };
     float b[]={ 2.0,3.0,4.0,5.0,6.0 };
     float d;
+    float size = sizeof(a)/4;
 
     /*
     Code to compute the dot product
     Store your answer in d
     print your final answer
     */
-    return 0;
+   
+   for (int k=0; k<size; k++) {
+      d = d + (a[k] * b[k]);
+   }
+   
+   printf("The dot product of a and b is %.2f\n", d);
+   return 0;
  }
