@@ -11,5 +11,13 @@
  
 n = int(input("Enter the number of terms: "))
 term_count = 0
+approximation = 0
 while term_count < n:
-    pass
+    current_term = 1/((2*term_count) + 1)
+    if term_count % 2 != 0:
+        current_term *= -1
+    approximation += current_term
+    term_count += 1 
+
+print(4*approximation)
+    
