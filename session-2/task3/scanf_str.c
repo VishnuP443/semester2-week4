@@ -3,7 +3,7 @@
 
 int main( void ) {
     char input[10];
-
+    printf("Enter a string: ");
     int count = scanf("%s",input);
     //int count = scanf("%9s",input);
 

@@ -13,3 +13,15 @@
  6. print the answer appropriately as pointer, character and string
  */ 
 
+
+#include <stdio.h>
+#include <string.h>
+
+int main( void ) {
+    char str1[3] = "ump";
+    char str2[100] = "The quick brown fox jumped over the lazy dog";
+    int length_of_substring = sizeof(str1)/sizeof(char);
+    int length_of_string = sizeof(str2)/sizeof(char);
+
+    return 0;
+}
